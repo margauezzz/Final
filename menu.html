@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Baliwag Lechon Manok | Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon"
+        href="https://baliwaglechonmanok.com/upload/assets/IpkcJgNcpzamwlcFkm4SCGZip2H61muGVQGf8tJhRRsacmrXSz.png">
+    <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+
+<body>
+
+    <div class="header" id="header">
+        <div class="header-content">
+            <a href="home.html">
+                <img src="https://flyingketchup.ph/wp-content/uploads/2022/11/baliwag.jpeg" alt="Baliwag Logo">
+            </a>
+            <nav class="main-nav">
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="menu.html" class="active">MENU</a>
+                <a href="index.html">SIGN OUT</a>
+            </nav>
+        </div>
+        <button class="side-nav-toggle" onclick="togglesideNav()">☰</button>
+    </div>
+
+    <div class="side-nav" id="sideNav">
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="menu.html" class="active">MENU</a>
+        <a href="index.html">SIGN OUT</a>
+    </div>
+
+    <div class="top-content">
+        <img src="assets/food.jpg" alt="Baliwag Foods">
+        <div class="image-overlay"></div>
+        <div class="overlay-text">
+            <h1>Masarap, Malasa, Baliwag Lechon!</h1>
+            <h2>Perfect sa kahit anong okasyon!</h2>
+        </div>
+    </div>
+
+    <div class="menu-header">
+        <button class="menu-side-nav-toggle" onclick="menutogglesideNav()">☰</button>
+        <div class="menu-content">
+            <nav class="menu-nav">
+                <a href="#combo">COMBO</a>
+                <a href="#favorites">FAVORITES</a>
+                <a href="#lutongpinoy">LUTONG PINOY</a>
+                <a href="#riceothers">RICE & OTHERS</a>
+                <a href="#specialty">SPECIALTY</a>
+                <a href="#dessert">DESSERT</a>
+                <a href="#drinks">DRINKS</a>
+            </nav>
+        </div>
+
+        <div class="menu-side-nav" id="menuSideNav">
+            <a href="#combo">COMBO</a>
+            <a href="#favorites">FAVORITES</a>
+            <a href="#lutongpinoy">LUTONG PINOY</a>
+            <a href="#riceothers">RICE & OTHERS</a>
+            <a href="#specialty">SPECIALTY</a>
+            <a href="#dessert">DESSERT</a>
+            <a href="#drinks">DRINKS</a>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="combo">
+        <h1>COMBO</h1>
+    </div>
+
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://www.kawalingpinoy.com/wp-content/uploads/2019/12/inihaw-liempo-3-680x680.jpg"
+                alt="Baliwag Liempo">
+            <div class="menu-title"> 
+                Liempo with 1.5L Coke
+            </div>
+            <div class="menu-desc">
+                ₱ 400.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://assets1.phonebooky.com/listings/assets/000/029/910/original/baliwag_2.jpg"
+                alt="Baliwag Lechon Manok">
+            <div class="menu-title">
+                1 Whole Manok with 1.5L Coke
+            </div>
+            <div class="menu-desc">
+                ₱ 470.00
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="favorites">
+        <h1>FAVORITES</h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2cBuAThACUmc6XCMd72QbQjTlHJwmXqgkJ5_jkjZmdwPyLmRuCZfYN_DvMqOJtYL2m8w&usqp=CAU"
+                alt="Baliwag Lechon Manok">
+            <div class="menu-title">
+                Lechon Manok
+            </div>
+            <div class="menu-desc">
+                ₱ 395.00
+            </div>
+        </div>
+        
+        <div class="menu-card">
+            <img src="https://www.kawalingpinoy.com/wp-content/uploads/2019/12/inihaw-liempo-3-680x680.jpg"
+                alt="Baliwag Liempo">
+            <div class="menu-title">
+                Lechon Liempo
+            </div>
+            <div class="menu-desc">
+                ₱ 325.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://www.kawalingpinoy.com/wp-content/uploads/2019/12/lechong-manok-9.jpg"
+                alt="Baliwag 1/2 Lechon Manok">
+            <div class="menu-title">
+                1/2 Lechon Manok
+            </div>
+            <div class="menu-desc">
+                ₱ 197.50
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://i.redd.it/crispy-ulo-ng-baboy-sa-baguio-v0-6xqg3saz1twd1.jpg?width=945&format=pjpg&auto=webp&s=1428162fe360a930703b65da35313d07bbf74328"
+                alt="Baliwag Crispy Ulo">
+            <div class="menu-title">
+                Crispy Ulo
+            </div>
+            <div class="menu-desc">
+                ₱ 780.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://static.wixstatic.com/media/b91749_ecb6d6fb27fa4dc7a5fc1e1598ecbf08~mv2.jpg/v1/fill/w_720,h_720,al_c,q_85,enc_avif,quality_auto/b91749_ecb6d6fb27fa4dc7a5fc1e1598ecbf08~mv2.jpg"
+                alt="Baliwag Crispy Pata">
+            <div class="menu-title">
+                Crispy Pata
+            </div>
+            <div class="menu-desc">
+                ₱ 650.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://pampangasbest.store/cdn/shop/products/PORK-BARBECUE-ON-STICK-500G-2_503x503.jpg?v=1632635718" 
+                alt="Baliwag Pork BBQ">
+            <div class="menu-title">
+                Pork BBQ
+            </div>
+            <div class="menu-desc">
+                ₱ 45.00 / piece
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://copykat.com/wp-content/uploads/2021/07/Cracker-Barrel-Fried-Chicken-Pin-3.jpg" 
+                alt="Baliwag Chikititas">
+            <div class="menu-title">
+                Chikititas
+            </div>
+            <div class="menu-desc">
+                ₱ 55.00 / piece
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://www.todaysdelight.com/wp-content/uploads/2021/04/pork-siopao-asado-1581-r.-123k.jpg" 
+                alt="Baliwag Siopao Asado">
+            <div class="menu-title">
+                Siopao Asado
+            </div>
+            <div class="menu-desc">
+                ₱ 38.00 / piece
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://pollandhopia.com/cdn/shop/products/bola-bola-siopao_1024x.jpg?v=1599055333" 
+                alt="Baliwag Siopao Bola-bola">
+            <div class="menu-title">
+                Siopao Bola-bola
+            </div>
+            <div class="menu-desc">
+                ₱ 38.00 / piece
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://i.ytimg.com/vi/8IwX3ajM0oY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD9skLIbYRk6Ci3d82Qkcyt1k2BlQ" 
+                alt="Baliwag Porkchop">
+            <div class="menu-title">
+                Porkchop
+            </div>
+            <div class="menu-desc">
+                ₱ 65.00 / piece
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="lutongpinoy">
+        <h1>LUTONG PINOY</h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://www.pinoyfamilyrecipes.com/wp-content/uploads/2024/10/Pork-Binagoongan-1.jpg"
+                alt="Baliwag Pork Binagoongan">
+            <div class="menu-title">
+                Pork Binagoongan
+            </div>
+            <div class="menu-desc">
+                ₱ 215.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://www.allrecipes.com/thmb/btUERcJpWP1SuxDjzIKqsfw31wk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/212911-filipino-beef-steak-ddmfs-3X4-0284-ac57852ee0d54c8e875846c096effb3c.jpg"  
+                alt="Baliwag Beef Steak">
+            <div class="menu-title">
+                Beef Steak
+            </div>
+            <div class="menu-desc">
+                ₱ 285.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-09-kare-kare%2Fkare-kare-3458"
+                alt="Baliwag Kare-kare">
+            <div class="menu-title">
+                Kare-kare
+            </div>
+            <div class="menu-desc">
+                ₱ 255.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://gourmetcornerph.com/cdn/shop/products/1629419c-9984-4433-bcb4-1ba9390caa41.jpg?v=1612502956"
+                alt="Baliwag Beef Caldereta">
+            <div class="menu-title">
+                Beef Caldereta
+            </div>
+            <div class="menu-desc">
+                ₱ 295.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2013/09/lechon-paksiw-wide-2.jpg?fit=1080%2C720&ssl=1"
+                alt="Baliwag Lechon Paksiw">
+            <div class="menu-title">
+                Lechon Paksiw
+            </div>
+            <div class="menu-desc">
+                ₱ 240.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://assets.unileversolutions.com/recipes-v2/110821.jpg"
+                alt="Baliwag Dinuguan">
+            <div class="menu-title">
+                Dinuguan
+            </div>
+            <div class="menu-desc">
+                ₱ 215.00 
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://i.pinimg.com/736x/de/00/f9/de00f916d78ef78622fba64541552924.jpg"
+                alt="Baliwag Lengua">
+            <div class="menu-title">
+                Lengua
+            </div>
+            <div class="menu-desc">
+                ₱ 305.00 
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://www.meeteat.org/wp-content/uploads/2021/03/callos6-680x500.jpg"
+                alt="Baliwag Callos">
+            <div class="menu-title">
+                Callos
+            </div>
+            <div class="menu-desc">
+                ₱ 275.00 
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://i.pinimg.com/736x/85/2c/19/852c19d8a136d18ffcf9d249e6260bb3.jpg"
+                alt="Baliwag Embudito">
+            <div class="menu-title">
+                Embudito
+            </div>
+            <div class="menu-desc">
+                ₱ 305.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://assets.unileversolutions.com/recipes-v2/110738.jpg"
+                alt="Baliwag Laing">
+            <div class="menu-title">
+                Laing
+            </div>
+            <div class="menu-desc">
+                ₱ 205.00
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="riceothers">
+        <h1> RICE & EXTRA </h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Siomai_sa_Tisa.jpg/1200px-Siomai_sa_Tisa.jpg"
+                alt="Baliwag Siomai">
+            <div class="menu-title">
+                Siomai
+            </div>
+            <div class="menu-desc">
+                ₱ 33.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://www.allrecipes.com/thmb/RKpnSHLUDT2klppYgx8jAF47GyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/52490-PuertoRicanSteamedRice-DDMFS-061-4x3-3c3da714aa614037ad1c135ec303526d.jpg" 
+                alt="Baliwag Steamed Rice">
+            <div class="menu-title">
+                Steamed Rice
+            </div>
+            <div class="menu-desc">
+                ₱ 15.00
+            </div>
+        </div>
+        
+        <div class="menu-card">
+            <img src="https://images.deliveryhero.io/image/fd-ph/Products/13257700.jpg??width=500" 
+                alt="Baliwag Sinandomeng Rice (1kg)">
+            <div class="menu-title">
+                Sinandomeng Rice (1kg)
+            </div>
+            <div class="menu-desc">
+                ₱ 62.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://afoodcentriclife.com/wp-content/uploads/2018/06/hard-boiled-eggs-37-500x375.jpg" 
+                alt="Baliwag White Egg">
+            <div class="menu-title">
+                White Egg
+            </div>
+            <div class="menu-desc">
+                ₱ 10.00 / piece
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="specialty">
+        <h1> SPECIALTY </h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://images.deliveryhero.io/image/fd-ph/Products/13257701.jpg?width=%s"
+                alt="Baliwag Special Atsara (250gm)">
+            <div class="menu-title">
+                Special Atsara (250gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 65.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSS971cHLWw3eYY5TggQmdwTQ4PdX2HJg_qg&s" 
+                alt="Baliwag Atsara (Cup)">
+            <div class="menu-title">
+                Atsara (Cup)
+            </div>
+            <div class="menu-desc">
+                ₱ 18.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://pasabuystore.com/cdn/shop/products/276050977_564960654568651_5018639739155371078_n_grande.jpg?v=1648585000" 
+                alt="Baliwag Chicharon Plain (45gm)">
+            <div class="menu-title">
+                Chicharon Plain (45gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 40.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://pasabuystore.com/cdn/shop/products/276949088_287163146903407_8120483342821993048_n_grande.jpg?v=1648585000"
+                alt="Baliwag Chicharon Spicy (45gm)">
+            <div class="menu-title">
+                Chicharon Spicy (45gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 40.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://pasabuystore.com/cdn/shop/products/275911668_266906815513963_7373813736362610666_n_grande.jpg?v=1648585000"
+                alt="Baliwag Chicharon Laman (120gm)">
+            <div class="menu-title">
+                Chicharon Laman (120gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 110.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://images.deliveryhero.io/image/fd-ph/Products/13257705.jpg??width=500" 
+                alt="Baliwag Special Baliwag Bagoong (250gm)">
+            <div class="menu-title">
+                Special Baliwag Bagoong (250gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 85.00
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://images.deliveryhero.io/image/fd-ph/Products/13257703.jpg??width=500" 
+                alt="Baliwag Chili Hot Baliwag Bagoong (250gm)">
+            <div class="menu-title">
+                Chili Hot Baliwag Bagoong (250gm)
+            </div>
+            <div class="menu-desc">
+                ₱ 85.00
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="dessert">
+        <h1>DESSERT</h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://images.deliveryhero.io/image/fd-ph/Products/13257714.jpg??width=500" alt="Baliwag Leche Flan">
+            <div class="menu-title">
+                Leche Flan
+            </div>
+            <div class="menu-desc">
+                ₱ 35.00
+            </div>
+        </div>
+    </div>
+
+    <div class="menuHeader" id="drinks">
+        <h1> DRINKS </h1>
+    </div>
+    
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="https://lh5.googleusercontent.com/proxy/o4nY3bo12AofC248cKyZH73Rh3-5nLFrrVGYvaBLeFEDGBd5xk_94UXS4Ipcfe5tR7gRvTdK6eU2mWKeuYCSv0RDqCLjJIckc0RgVwNTb41CfmCmQ_N9bie1OA"
+                alt="Cobra Energy Drink">
+            <div class="menu-title">
+                Cobra Energy Drink
+            </div>
+            <div class="menu-desc">
+                ₱ 18.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://target.scene7.com/is/image/Target/GUEST_6e55897a-4268-4768-b787-ec488c62b4d3"
+                alt="Coke 12oz">
+            <div class="menu-title">
+                Coke 12oz (355ml)
+            </div>
+            <div class="menu-desc">
+                ₱ 16.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://m.media-amazon.com/images/I/21eb5JZWYAL._SS400_.jpg"
+                alt="Coke 8oz">
+            <div class="menu-title">
+                Coke 8oz (237ml)
+            </div>
+            <div class="menu-desc">
+                ₱ 15.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://cdn.store-assets.com/s/377840/i/17237297.jpeg"
+                alt="Coke (Mismo)">
+            <div class="menu-title">
+                Coke (Mismo)
+            </div>
+            <div class="menu-desc">
+                ₱ 16.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://allamerican.com.ph/cdn/shop/products/coke1_300x300.png?v=1658452751"
+                alt="Coke (1.5L)">
+            <div class="menu-title">
+                Coke (1.5L)
+            </div>
+            <div class="menu-desc">
+                ₱ 66.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHpSqLcnz8VK5jjmG5OjHY_9EiKQwsINksA&s" 
+                alt="Coke (in Can)">
+            <div class="menu-title">
+                Coke (in Can)
+            </div>
+            <div class="menu-desc">
+                ₱ 30.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://www.promiselandmart.com/cdn/shop/products/real_leaf_honey_lemon_green_tea.jpg?v=1632897119" 
+                alt="Real Leaf (480ml)">
+            <div class="menu-title">
+                Real Leaf (480ml)
+            </div>
+            <div class="menu-desc">
+                ₱ 25.00
+            </div>
+        </div>
+    
+        <div class="menu-card">
+            <img src="https://marilenminimart.com/cdn/shop/products/2012308-Viva-500.png?v=1616817368" 
+                alt="Viva (500 ml)">
+            <div class="menu-title">
+                Viva (500 ml)
+            </div>
+            <div class="menu-desc">
+                ₱ 18.00
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column left">
+                &copy; 2025 Baliwag Lechon Manok • Liempo<br>All Rights Reserved.
+            </div>
+            <div class="footer-column center">
+                <a href="about.html#privacy">Privacy Policy</a><br>
+                <a href="about.html#contact">Contact</a>
+            </div>
+            <div class="footer-column right">
+                <a href="home.html">Home</a><br>
+                <a href="about.html">About Us</a><br>
+                <a href="menu.html">Menu</a>
+            </div>
+
+            <div class="footer-column right">
+                <a href="#header">Back to Top</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglesideNav() {
+            document.getElementById('sideNav').classList.toggle('active');
+        }
+
+        function menutogglesideNav() {
+            document.getElementById('menuSideNav').classList.toggle('active');
+        }
+
+        window.addEventListener('scroll', function () {
+            const topContent = document.querySelector('.top-content');
+            const menuHeader = document.querySelector('.menu-header');
+            const topContentBottom = topContent.offsetTop + topContent.offsetHeight;
+
+            if (window.scrollY >= topContentBottom) {
+                menuHeader.classList.add('fixed');
+            } else {
+                menuHeader.classList.remove('fixed');
+            }
+
+            updateScrollSpy(); 
+        });
+
+        function updateScrollSpy() {
+            const sections = document.querySelectorAll('.menuHeader');
+            const links = [
+                ...document.querySelectorAll(".menu-nav a"),
+                ...document.querySelectorAll(".menu-side-nav a")
+            ];
+
+            let scrollPos = window.scrollY + 80; 
+
+            let currentSectionId = "";
+            sections.forEach(section => {
+                if (scrollPos >= section.offsetTop) {
+                    currentSectionId = "#" + section.id;
+                }
+            });
+
+            links.forEach(link => {
+                const href = link.getAttribute("href");
+                link.classList.toggle("active", href === currentSectionId);
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const allMenuLinks = [
+                ...document.querySelectorAll(".menu-nav a"),
+                ...document.querySelectorAll(".menu-side-nav a")
+            ];
+
+            updateScrollSpy();
+
+            allMenuLinks.forEach(link => {
+                link.addEventListener("click", (e) => {
+                    const target = document.querySelector(link.getAttribute("href"));
+                    if (target) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: target.offsetTop - 70, 
+                            behavior: 'smooth'
+                        });
+                        
+                        allMenuLinks.forEach(l => l.classList.remove("active"));
+                        link.classList.add("active");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

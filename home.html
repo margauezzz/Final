@@ -1,0 +1,91 @@
+<html>
+
+    <head>
+        <title>Baliwag Lechon Manok | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon"
+            href="https://baliwaglechonmanok.com/upload/assets/IpkcJgNcpzamwlcFkm4SCGZip2H61muGVQGf8tJhRRsacmrXSz.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <div class="header" id="header">
+            <div class="header-content">
+                <a href="home.html">
+                    <img src="https://flyingketchup.ph/wp-content/uploads/2022/11/baliwag.jpeg" alt="Baliwag Logo">
+                </a>
+                <nav class="main-nav">
+                    <a href="home.html" class="active">HOME</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="menu.html">MENU</a>
+                    <a href="index.html">SIGN OUT</a>
+                </nav>
+            </div>
+            <button class="side-nav-toggle" onclick="togglesideNav()">☰</button>
+        </div>
+
+        <div class="side-nav" id="sideNav">
+            <a href="home.html" class="active">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="menu.html">MENU</a>
+            <a href="index.html">SIGN OUT</a>
+        </div>
+
+        <div class="top-content">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npeiJZZDKhC8tqZ6UgpmjLoRsu_zYMaUoPw21w8OLLEMecP-j5QnDilwLtUVl1Jb4FErIy6cdzVeqWNcT17W2nz0uFCE09-bQLnePmDdpX1neZXx_itwHuZ0n0P1UtMwV1US2V2ug=s1360-w1360-h1020-rw"
+                alt="Baliwag Store">
+            <div class="image-overlay"></div>
+            <div class="overlay-text">
+                <h1>Masarap, Malasa, Baliwag Lechon!</h1>
+                <h2>Perfect sa kahit anong okasyon!</h2>
+            </div>
+        </div>
+
+        <div class="grid-section">
+            <a href="about.html" class="grid-button">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlykXdBUxL3GBrlw3COAfRzi4uh6-cfSvll23X6VloHk3SlCRqKMNt1NQRVhG7zAMQRKU&usqp=CAU"
+                    alt="Baliwag Story">
+                <span>Baliwag Story</span>
+            </a>
+            <a href="menu.html#favorites" class="grid-button">
+                <img src="https://images.deliveryhero.io/image/fd-ph/LH/d32u-listing.JPG" alt="Menu">
+                <span>Paborito ng Bayan</span>
+            </a>
+            <a href="menu.html#specialty" class="grid-button">
+                <img src="https://i0.wp.com/awesome.blog/wp-content/uploads/2021/11/Baliwag-Taste-Test-14.jpg?resize=840%2C1120&quality=89&ssl=1"
+                    alt="Baliwag Specials">
+                <span>Baliwag Specialty</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-column left">
+                    &copy; 2025 Baliwag Lechon Manok • Liempo<br>All Rights Reserved.
+                </div>
+                <div class="footer-column center">
+                    <a href="about.html#Privacy">Privacy Policy</a><br>
+                    <a href="about.html#contact">Contact</a>
+                </div>
+                <div class="footer-column right">
+                    <a href="home.html">Home</a><br>
+                    <a href="about.html">About Us</a><br>
+                    <a href="menu.html">Menu</a>
+                </div>
+        
+                <div class="footer-column right">
+                    <a href="#header">Back to Top</a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function togglesideNav() {
+                const nav = document.getElementById('sideNav');
+                nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+                nav.style.flexDirection = 'column';
+            }
+        </script>
+    </body>
+
+</html>
