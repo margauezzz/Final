@@ -152,7 +152,7 @@ body {
     margin-top: 0.5rem;
 }
 
-.main-content{
+.main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -206,7 +206,7 @@ body {
     text-decoration: none;
     color: inherit;
     width: 100%;
-} 
+}
 
 .grid-button:hover {
     transform: translateY(-5px);
@@ -403,15 +403,15 @@ body {
 }
 
 .menu-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
     box-sizing: border-box;
     width: 100%;
-    justify-items: center;
 }
 
 .menuHeader h1 {
@@ -421,8 +421,8 @@ body {
 }
 
 .menu-card {
-    width: 330px;
-    height: 330px;
+    flex: 1 1 300px;
+    max-width: 360px;
     background-color: #fff;
     border: 1px solid #eee;
     border-radius: 10px;
@@ -431,6 +431,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 .menu-card img {
@@ -518,7 +519,6 @@ body {
         flex-direction: column;
         gap: 0.5rem;
     }
-    
 }
 
 @media (max-width: 768px) {
@@ -551,7 +551,7 @@ body {
     .main-content {
         grid-template-columns: 1fr;
     }
-    
+
     .top-content img,
     .image-overlay {
         height: 40vh;
@@ -561,9 +561,9 @@ body {
         height: 150px;
     }
 
-    .menu-grid {
-        grid-template-columns: 1fr;
-        padding: 2px;
+    .menu-card {
+        flex: 1 1 100%;
+        max-width: 90%;
     }
 
     .footer-container {
@@ -581,15 +581,14 @@ body {
     .overlay-text h1 {
         font-size: 1.2rem;
     }
-    
+
     .overlay-text h2 {
         font-size: 0.9rem;
     }
-    
-    .grid-section,
-    .menu-grid {
+
+    .grid-section{
         grid-template-columns: 1fr;
-        padding: 5px;
+        padding: 15px;
     }
 
     .grid-button img {
@@ -599,8 +598,13 @@ body {
     .menu-title {
         font-size: 0.95rem;
     }
-    
+
     .menu-desc {
         font-size: 0.85rem;
+    }
+
+    .menu-card {
+       flex: 1 1 100%;
+       max-width: 90%;
     }
 }
