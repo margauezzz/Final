@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -6,6 +12,7 @@ body {
     width: 100%;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap: break-word;
 }
 
 body {
@@ -303,6 +310,9 @@ body {
 .PrivacyContact p {
     text-align: justify;
     line-height: 1.6;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .menu-header {
@@ -561,6 +571,16 @@ body {
         height: 150px;
     }
 
+    .PrivacyContact {
+        padding: 1rem;
+    }
+
+    .PrivacyContact .privacy-inner {
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
     .menu-card {
         flex: 1 1 100%;
         max-width: 90%;
@@ -586,13 +606,22 @@ body {
         font-size: 0.9rem;
     }
 
-    .grid-section{
+    .grid-section {
         grid-template-columns: 1fr;
         padding: 15px;
     }
 
     .grid-button img {
         height: 130px;
+    }
+
+    .column h1,
+    .PrivacyContact h1 {
+        font-size: 1.2rem;
+    }
+
+    .value-item .value {
+        font-size: 0.9rem;
     }
 
     .menu-title {
@@ -604,7 +633,7 @@ body {
     }
 
     .menu-card {
-       flex: 1 1 100%;
-       max-width: 90%;
+        flex: 1 1 100%;
+        max-width: 90%;
     }
 }
